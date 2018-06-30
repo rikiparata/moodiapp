@@ -20,19 +20,19 @@ const MoodContent = (props) => {
       <ul>
         <h2>Movies</h2>
          {mood.content.map(content => {
-          return <li key={content}><a href={content.link}><button>{content.movie} </button></a></li>
+          return <li key={content}><a href={content.link} target="_blank"><button>{content.movie} </button></a></li>
         })}
       </ul>
       <ul>
         <h2>Articles</h2>
          {mood.article.map(article => {
-          return <li key={article}><a href={article.link}><button>{article.article} </button></a></li>
+          return <li key={article}><a href={article.link} target="_blank"><button>{article.article} </button></a></li>
         })}
       </ul>
       <ul>
         <h2>Games</h2>
          {mood.game.map(game => {
-          return <li key={game}><a href={game.link}><button>{game.game} </button></a></li>
+          return <li key={game}><a href={game.link} target="_blank"><button>{game.game} </button></a></li>
         })}
       </ul>
       <Link to="/">Back</Link>

@@ -3,10 +3,10 @@
     {
       "mood": "focus",
       "music": [
-        {"song":"lofi hiphop radio", "link":"https://www.youtube.com/watch?v=jgMfYgsRvQ8"},
-        {"song":"jazz hiphop radio", "link":"https://www.youtube.com/watch?v=gwDoRPcPxtc"},
-        {"song":"ambient radio", "link":"https://www.youtube.com/watch?v=Mq3sqHBhzwc"},
-        {"song":"retro synth radio", "link":"https://www.youtube.com/watch?v=wOMwO5T3yT4"}
+        {"song":"Spotify Deep Focus", "link":"https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWZeKCadgRdKQ"},
+        {"song":"Apple Music Productivity", "link":"https://itunes.apple.com/us/playlist/back-to-work-music-for-study-focus-and-productivity/pl.81eb22e5ecfb4e058c923a0055c885e0"},
+        {"song":"Youtube Smoke & Study Radio", "link":"https://www.youtube.com/watch?v=qlnIkLw9es4"},
+        {"song":"Youtube Retro Synth Radio", "link":"https://www.youtube.com/watch?v=wOMwO5T3yT4"}
 
       ],
       "content": [
@@ -31,55 +31,55 @@
     {
       "mood": "relax",
       "music": [
-        {"song":"", "link":""},
-        {"song":"", "link":""},
-        {"song":"", "link":""},
-        {"song":"", "link":""}
+        {"song":"Spotify Relax & Unwind", "link":"https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWU0ScTcjJBdj"},
+        {"song":"Apple Music Relax", "link":"https://itunes.apple.com/us/artist/relaxing-music/352991713"},
+        {"song":"Youtube ChillStep Radio", "link":"https://www.youtube.com/watch?v=TDcJJYY5sms"},
+        {"song":"Youtube LoFi Hip Hop Radio", "link":"https://www.youtube.com/watch?v=jgMfYgsRvQ8"}
       ],
       "content": [
-        {"movie":"", "link":""},
-        {"movie":"", "link":""},
-        {"movie":"", "link":""},
-        {"movie":"", "link":""}
+        {"movie":"Forgetting Sarah Marshall", "link":"https://www2.putlockerr.is/5029-watch-forgetting-sarah-marshall-2008-online-free-putlocker.html"},
+        {"movie":"Superbad", "link":"https://www2.putlockerr.is/4862-watch-superbad-2007-online-free-putlocker.html"},
+        {"movie":"The Other Guys", "link":"https://www2.putlockerr.is/5410-watch-the-other-guys-2010-online-free-putlocker.html"},
+        {"movie":"Shrek", "link":"https://www2.putlockerr.is/4177-watch-shrek-2001-online-free-putlocker.html"}
       ],
       "article": [
-        {"article":"", "link":""},
-        {"article":"", "link":""},
-        {"article":"", "link":""},
-        {"article":"", "link":""}
+        {"article":"Relaxation Techniques", "link":"https://www.helpguide.org/articles/stress/relaxation-techniques-for-stress-relief.htm"},
+        {"article":"Ten Ways To Relax", "link":"https://www.realbuzz.com/articles-interests/health/article/top-10-ways-to-relax/"},
+        {"article":"Yoga: Deep Relaxation", "link":"https://yogainternational.com/article/view/a-masters-guide-to-deep-relaxation"},
+        {"article":"Take Stress Off Your Tech Job", "link":"https://www.monster.com/career-advice/article/information-technology-stress-relax"}
       ],
       "game": [
-        {"game":"", "link":""},
-        {"game":"", "link":""},
-        {"game":"", "link":""},
-        {"game":"", "link":""}
+        {"game":"Happy Wheels", "link":"http://www.totaljerkface.com/happy_wheels.tjf"},
+        {"game":"Agar.io", "link":"http://agar.io/#ffa"},
+        {"game":"Crossy Road", "link":"https://poki.com/en/g/crossy-road"},
+        {"game":"Flappy Bird", "link":"http://poki.com/en/g/flappy-bird"}
       ]
     },
     {
       "mood": "hype",
       "music": [
-        {"song":"", "link":""},
-        {"song":"", "link":""},
-        {"song":"", "link":""},
-        {"song":"", "link":""}
+        {"song":"Spotify A1 Hip Hop", "link":"https://open.spotify.com/user/spotifyaustralia/playlist/02iYiVH3QUrRyTGQ2xB5Fv"},
+        {"song":"Apple Music Party", "link":"https://itunes.apple.com/us/playlist/party-starters/pl.b477839538364c8db8f3950e13731ecc"},
+        {"song":"Youtube EDM Mix", "link":"https://www.youtube.com/watch?v=p3gRR0aG1HQ&list=RDp3gRR0aG1HQ"},
+        {"song":"Youtube Latest Music", "link":"https://www.youtube.com/playlist?list=PLFgquLnL59akA2PflFpeQG9L01VFg90wS"}
       ],
       "content": [
-        {"movie":"", "link":""},
-        {"movie":"", "link":""},
-        {"movie":"", "link":""},
-        {"movie":"", "link":""}
+        {"movie":"Avengers Infinity War", "link":"https://www2.putlockerr.is/24458-watch-avengers-infinity-war-2018-online-free-putlocker.html"},
+        {"movie":"Pulp Fiction", "link":"https://www2.putlockerr.is/3894-watch-pulp-fiction-1994-online-free-putlocker.html"},
+        {"movie":"Black Panther", "link":"https://www2.putlockerr.is/24035-watch-black-panther-2018-online-free-putlocker.html"},
+        {"movie":"The Commuter", "link":"http://putlocker.co.com/watch/QvM9kzv2-the-commuter.html"}
       ],
       "article": [
-        {"article":"", "link":""},
-        {"article":"", "link":""},
-        {"article":"", "link":""},
-        {"article":"", "link":""}
+        {"article":"Concerts & Gig Guide", "link":"https://www.eventfinda.co.nz/concerts-gig-guide/events/wellington"},
+        {"article":"10 Biggest EDM Festivals", "link":"https://www.mensxp.com/special-features/top-10/9093-10-biggest-edm-festivals-in-the-world-p1.html"},
+        {"article":"Rhythm & Vines", "link":"https://www.rhythmandvines.co.nz/"},
+        {"article":"Bay Dreams", "link":"https://baydreams.co.nz/"}
       ],
       "game": [
-        {"game":"", "link":""},
-        {"game":"", "link":""},
-        {"game":"", "link":""},
-        {"game":"", "link":""}
+        {"game":"Fortnite", "link":"https://www.epicgames.com/fortnite/en-US/buy-now/battle-royale?utm_source=GoogleSearch&utm_medium=Search&utm_campaign=an*YH_pr*FNBR_ct*Search_pl*Brand_co*AU_cr*Exact&utm_id=895599020&utm_content=&gclid=Cj0KCQjw1NzZBRCoARIsAIaMwusJnkZ4vq0mxHKp26LZOJ4ZDHRTEjV8MfiWAxoGaK_TjdPQEcy572UaAvCwEALw_wcB"},
+        {"game":"Clash Of Clans", "link":"http://supercell.com/en/games/clashofclans/"},
+        {"game":"8 Ball Pool", "link":"https://www.miniclip.com/games/8-ball-pool-multiplayer/en/"},
+        {"game":"Smash Hit", "link":"http://www.smashhitgame.com/"}
       ]
     }
   ]
