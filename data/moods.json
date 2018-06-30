@@ -1,0 +1,86 @@
+{
+  "list_of_moods": [
+    {
+      "mood": "focus",
+      "music": [
+        {"song":"lofi hiphop radio", "link":"https://www.youtube.com/watch?v=jgMfYgsRvQ8"},
+        {"song":"jazz hiphop radio", "link":"https://www.youtube.com/watch?v=gwDoRPcPxtc"},
+        {"song":"ambient radio", "link":"https://www.youtube.com/watch?v=Mq3sqHBhzwc"},
+        {"song":"retro synth radio", "link":"https://www.youtube.com/watch?v=wOMwO5T3yT4"}
+
+      ],
+      "content": [
+        {"movie": "The Imitation Game", "link": "https://www2.putlockerr.is/7351-watch-the-imitation-game-2014-online-free-putlocker.html"},
+        {"movie": "Inception", "link": "https://www2.putlockerr.is/7770-watch-inception-2010-online-free-putlocker.html"},
+        {"movie": "Good Will Hunting", "link": "https://www2.putlockerr.is/4029-watch-good-will-hunting-1997-online-free-putlocker.html"},
+        {"movie": "The Blind Side", "link": "https://www2.putlockerr.is/5098-watch-the-blind-side-2009-online-free-putlocker.html"}
+      ],
+      "article": [
+        {"article":"Focus: The Ultimate Guide", "link":"https://jamesclear.com/focus"},
+        {"article":"Train Your Brain", "link": "https://www.entrepreneur.com/article/225321"},
+        {"article":"Two Things Killing Your Focus", "link": "https://hbr.org/2016/08/the-two-things-killing-your-ability-to-focus"},
+        {"article":"The Magical Power of Focus", "link": "https://zenhabits.net/the-magical-power-of-focus/"}
+      ],
+      "game": [
+        {"game":"2048", "link": "https://gabrielecirulli.github.io/2048/"},
+        {"game":"Simon", "link": "http://www.freesimon.org/"},
+        {"game":"Pattern Memory", "link": "http://www.webgamesonline.com/memory/"},
+        {"game":"Lomosity", "link": "https://www.lumosity.com/landing_pages/970?gclid=Cj0KCQjwjtLZBRDLARIsAKT6fXzqceGJ6eQCIHMFPgocTWS9_X_3u2PhPwcSQ6QMoVs8gukwnuLiD2MaAldmEALw_wcB"}
+      ]
+    },
+    {
+      "mood": "relax",
+      "music": [
+        {"song":"", "link":""},
+        {"song":"", "link":""},
+        {"song":"", "link":""},
+        {"song":"", "link":""}
+      ],
+      "content": [
+        {"movie":"", "link":""},
+        {"movie":"", "link":""},
+        {"movie":"", "link":""},
+        {"movie":"", "link":""}
+      ],
+      "article": [
+        {"article":"", "link":""},
+        {"article":"", "link":""},
+        {"article":"", "link":""},
+        {"article":"", "link":""}
+      ],
+      "game": [
+        {"game":"", "link":""},
+        {"game":"", "link":""},
+        {"game":"", "link":""},
+        {"game":"", "link":""}
+      ]
+    },
+    {
+      "mood": "hype",
+      "music": [
+        {"song":"", "link":""},
+        {"song":"", "link":""},
+        {"song":"", "link":""},
+        {"song":"", "link":""}
+      ],
+      "content": [
+        {"movie":"", "link":""},
+        {"movie":"", "link":""},
+        {"movie":"", "link":""},
+        {"movie":"", "link":""}
+      ],
+      "article": [
+        {"article":"", "link":""},
+        {"article":"", "link":""},
+        {"article":"", "link":""},
+        {"article":"", "link":""}
+      ],
+      "game": [
+        {"game":"", "link":""},
+        {"game":"", "link":""},
+        {"game":"", "link":""},
+        {"game":"", "link":""}
+      ]
+    }
+  ]
+}
