@@ -19970,21 +19970,21 @@ var App = function App() {
       null,
       _react2.default.createElement(
         'section',
-        { 'class': 'hero is-medium is-dark is-bold' },
+        { className: 'hero is-medium is-dark is-bold' },
         _react2.default.createElement(
           'div',
-          { 'class': 'hero-body' },
+          { className: 'hero-body' },
           _react2.default.createElement(
             'div',
-            { 'class': 'container has-text-centered' },
+            { className: 'container has-text-centered' },
             _react2.default.createElement(
               'h1',
-              { 'class': 'title' },
+              { className: 'title' },
               'moodi'
             ),
             _react2.default.createElement(
               'h2',
-              { 'class': 'subtitle' },
+              { className: 'subtitle' },
               'for students'
             )
           )
@@ -23371,14 +23371,14 @@ var _moods = __webpack_require__(35);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Home = function Home(props) {
-  console.log(props);
+
   return _react2.default.createElement(
-    'ul',
-    null,
+    'div',
+    { id: 'cool', className: 'tile is-ancestor has-text-centered' },
     _moods.list_of_moods.map(function (moodData) {
       return _react2.default.createElement(
-        'li',
-        { key: moodData.mood },
+        'div',
+        { style: { padding: "50px" }, className: 'tile is-child box ', key: moodData.mood },
         _react2.default.createElement(
           _reactRouterDom.Link,
           { to: '/' + moodData.mood + '/content' },
@@ -23388,7 +23388,29 @@ var Home = function Home(props) {
     })
   );
 };
-
+// <div class="tile is-ancestor">
+//   <div class="tile is-parent">
+//     <article class="tile is-child box">
+//       <p class="title">Hello World</p>
+//       <p class="subtitle">What is up?</p>
+//     </article>
+//   </div>
+//   <div class="tile is-parent">
+//     <article class="tile is-child box">
+//       <p class="title">Foo</p>
+//       <p class="subtitle">Bar</p>
+//     </article>
+//   </div>
+//   <div class="tile is-parent">
+//     <article class="tile is-child box">
+//       <p class="title">Third column</p>
+//       <p class="subtitle">With some content</p>
+//       <div class="content">
+//         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+//       </div>
+//     </article>
+//   </div>
+// </div>
 exports.default = Home;
 
 /***/ }),

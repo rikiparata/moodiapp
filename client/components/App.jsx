@@ -8,11 +8,11 @@ const App = () => {
   return (
     <Router>
       <div>
-        <section class="hero is-medium is-dark is-bold">
-          <div class="hero-body">
-            <div class="container has-text-centered">
-              <h1 class="title">moodi</h1>
-              <h2 class="subtitle">for students</h2>
+        <section className="hero is-medium is-dark is-bold">
+          <div className="hero-body">
+            <div className="container has-text-centered">
+              <h1 className="title">moodi</h1>
+              <h2 className="subtitle">for students</h2>
             </div>
           </div>
         </section>
