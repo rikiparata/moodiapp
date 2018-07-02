@@ -23374,11 +23374,11 @@ var Home = function Home(props) {
 
   return _react2.default.createElement(
     'div',
-    { id: 'cool', className: 'tile is-ancestor has-text-centered' },
+    { id: 'cool', className: 'tile has-text-centered' },
     _moods.list_of_moods.map(function (moodData) {
       return _react2.default.createElement(
         'div',
-        { style: { padding: "50px" }, className: 'tile is-child box ', key: moodData.mood },
+        { className: 'tile is-child box', key: moodData.mood },
         _react2.default.createElement(
           _reactRouterDom.Link,
           { to: '/' + moodData.mood + '/content' },
@@ -23388,29 +23388,7 @@ var Home = function Home(props) {
     })
   );
 };
-// <div class="tile is-ancestor">
-//   <div class="tile is-parent">
-//     <article class="tile is-child box">
-//       <p class="title">Hello World</p>
-//       <p class="subtitle">What is up?</p>
-//     </article>
-//   </div>
-//   <div class="tile is-parent">
-//     <article class="tile is-child box">
-//       <p class="title">Foo</p>
-//       <p class="subtitle">Bar</p>
-//     </article>
-//   </div>
-//   <div class="tile is-parent">
-//     <article class="tile is-child box">
-//       <p class="title">Third column</p>
-//       <p class="subtitle">With some content</p>
-//       <div class="content">
-//         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-//       </div>
-//     </article>
-//   </div>
-// </div>
+
 exports.default = Home;
 
 /***/ }),

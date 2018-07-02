@@ -2,11 +2,29 @@ body {
     background-color: hsl(0, 0%, 96%);
 }
 
-/* * {
+* {
     border: 1px solid;
-} */
+}
 
 h1 {
     font-size: 45px;
     text-align: center;
 }
+
+/* return (
+    <div>
+      <h1>{mood.mood}</h1>
+      <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                    <ul>
+                    {moods.map(moodData => {
+                        return <div style={{padding: "50px"}} className="tile is-child box " key={moodData.mood}><Link to={`/${moodData.mood}/content`}>{moodData.mood}</Link></div>
+                      })}
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </div>
+  )
+} */
