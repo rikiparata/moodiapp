@@ -19969,9 +19969,26 @@ var App = function App() {
       'div',
       null,
       _react2.default.createElement(
-        'h1',
-        null,
-        'Moodi'
+        'section',
+        { 'class': 'hero is-medium is-dark is-bold' },
+        _react2.default.createElement(
+          'div',
+          { 'class': 'hero-body' },
+          _react2.default.createElement(
+            'div',
+            { 'class': 'container has-text-centered' },
+            _react2.default.createElement(
+              'h1',
+              { 'class': 'title' },
+              'moodi'
+            ),
+            _react2.default.createElement(
+              'h2',
+              { 'class': 'subtitle' },
+              'for students'
+            )
+          )
+        )
       ),
       _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
       _react2.default.createElement(_reactRouterDom.Route, { path: '/:mood/content', component: _MoodContent2.default })
@@ -23382,7 +23399,7 @@ exports.default = Home;
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _react = __webpack_require__(0);
@@ -23396,125 +23413,161 @@ var _moods = __webpack_require__(35);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var MoodContent = function MoodContent(props) {
-  var moodName = props.match.params.mood;
-  var mood = _moods.list_of_moods.find(function (a) {
-    return a.mood === moodName;
-  });
+    var moodName = props.match.params.mood;
+    var mood = _moods.list_of_moods.find(function (a) {
+        return a.mood === moodName;
+    });
 
-  return _react2.default.createElement(
-    'div',
-    null,
-    _react2.default.createElement(
-      'h1',
-      null,
-      mood.mood
-    ),
-    _react2.default.createElement(
-      'ul',
-      null,
-      _react2.default.createElement(
-        'h2',
+    return _react2.default.createElement(
+        'div',
         null,
-        'Music'
-      ),
-      mood.music.map(function (music) {
-        return _react2.default.createElement(
-          'li',
-          { key: music },
-          _react2.default.createElement(
-            'a',
-            { href: music.link, target: '_blank' },
+        _react2.default.createElement(
+            'h1',
+            null,
+            mood.mood
+        ),
+        _react2.default.createElement(
+            'div',
+            { 'class': 'tile is-ancestor' },
             _react2.default.createElement(
-              'button',
-              null,
-              music.song,
-              ' '
-            )
-          )
-        );
-      })
-    ),
-    _react2.default.createElement(
-      'ul',
-      null,
-      _react2.default.createElement(
-        'h2',
-        null,
-        'Movies'
-      ),
-      mood.content.map(function (content) {
-        return _react2.default.createElement(
-          'li',
-          { key: content },
-          _react2.default.createElement(
-            'a',
-            { href: content.link, target: '_blank' },
+                'div',
+                { 'class': 'tile is-parent' },
+                _react2.default.createElement(
+                    'article',
+                    { 'class': 'tile is-child box' },
+                    _react2.default.createElement(
+                        'ul',
+                        null,
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            'Music'
+                        ),
+                        mood.music.map(function (music) {
+                            return _react2.default.createElement(
+                                'li',
+                                { key: music },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: music.link, target: '_blank' },
+                                    _react2.default.createElement(
+                                        'button',
+                                        null,
+                                        music.song,
+                                        ' '
+                                    )
+                                )
+                            );
+                        })
+                    )
+                )
+            ),
             _react2.default.createElement(
-              'button',
-              null,
-              content.movie,
-              ' '
-            )
-          )
-        );
-      })
-    ),
-    _react2.default.createElement(
-      'ul',
-      null,
-      _react2.default.createElement(
-        'h2',
-        null,
-        'Articles'
-      ),
-      mood.article.map(function (article) {
-        return _react2.default.createElement(
-          'li',
-          { key: article },
-          _react2.default.createElement(
-            'a',
-            { href: article.link, target: '_blank' },
+                'div',
+                { 'class': 'tile is-parent' },
+                _react2.default.createElement(
+                    'article',
+                    { 'class': 'tile is-child box' },
+                    _react2.default.createElement(
+                        'ul',
+                        null,
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            'Movies'
+                        ),
+                        mood.content.map(function (content) {
+                            return _react2.default.createElement(
+                                'li',
+                                { key: content },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: content.link, target: '_blank' },
+                                    _react2.default.createElement(
+                                        'button',
+                                        null,
+                                        content.movie,
+                                        ' '
+                                    )
+                                )
+                            );
+                        })
+                    )
+                )
+            ),
             _react2.default.createElement(
-              'button',
-              null,
-              article.article,
-              ' '
-            )
-          )
-        );
-      })
-    ),
-    _react2.default.createElement(
-      'ul',
-      null,
-      _react2.default.createElement(
-        'h2',
-        null,
-        'Games'
-      ),
-      mood.game.map(function (game) {
-        return _react2.default.createElement(
-          'li',
-          { key: game },
-          _react2.default.createElement(
-            'a',
-            { href: game.link, target: '_blank' },
+                'div',
+                { 'class': 'tile is-parent' },
+                _react2.default.createElement(
+                    'article',
+                    { 'class': 'tile is-child box' },
+                    _react2.default.createElement(
+                        'ul',
+                        null,
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            'Articles'
+                        ),
+                        mood.article.map(function (article) {
+                            return _react2.default.createElement(
+                                'li',
+                                { key: article },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: article.link, target: '_blank' },
+                                    _react2.default.createElement(
+                                        'button',
+                                        null,
+                                        article.article,
+                                        ' '
+                                    )
+                                )
+                            );
+                        })
+                    )
+                )
+            ),
             _react2.default.createElement(
-              'button',
-              null,
-              game.game,
-              ' '
+                'div',
+                { 'class': 'tile is-parent' },
+                _react2.default.createElement(
+                    'article',
+                    { 'class': 'tile is-child box' },
+                    _react2.default.createElement(
+                        'ul',
+                        null,
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            'Games'
+                        ),
+                        mood.game.map(function (game) {
+                            return _react2.default.createElement(
+                                'li',
+                                { key: game },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: game.link, target: '_blank' },
+                                    _react2.default.createElement(
+                                        'button',
+                                        null,
+                                        game.game,
+                                        ' '
+                                    )
+                                )
+                            );
+                        })
+                    )
+                )
             )
-          )
-        );
-      })
-    ),
-    _react2.default.createElement(
-      _reactRouterDom.Link,
-      { to: '/' },
-      'Back'
-    )
-  );
+        ),
+        _react2.default.createElement(
+            _reactRouterDom.Link,
+            { to: '/' },
+            'Back'
+        )
+    );
 };
 
 exports.default = MoodContent;
