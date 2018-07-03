@@ -16,7 +16,7 @@ const MoodContent = (props) => {
                     <ul>
                         <h3>Music</h3>
                         {mood.music.map(music => {
-                            return <li key={music}><a className="button is-large" href={music.link} target="_blank">{music.song}</a></li>
+                            return <li key={music}><a className="button is-large is-rounded" href={music.link} target="_blank">{music.song}</a></li>
                         })}
                     </ul>
                 </article>
@@ -26,7 +26,7 @@ const MoodContent = (props) => {
                     <ul>
                         <h3>Movies</h3>
                         {mood.content.map(content => {
-                            return <li key={content}><a className="button is-large is-dark is-outlined is-rounded" href={content.link} target="_blank">{content.movie}</a></li>
+                            return <li key={content}><a className="button is-large is-rounded" href={content.link} target="_blank">{content.movie}</a></li>
                         })}
                     </ul>
                 </article>
@@ -36,7 +36,7 @@ const MoodContent = (props) => {
                     <ul>
                         <h3>Articles</h3>
                         {mood.article.map(article => {
-                            return <li key={article}><a className="button is-large" href={article.link} target="_blank">{article.article}</a></li>
+                            return <li key={article}><a className="button is-large is-rounded" href={article.link} target="_blank">{article.article}</a></li>
                         })}
                     </ul>
                 </article>
@@ -46,13 +46,13 @@ const MoodContent = (props) => {
                     <ul>
                         <h3>Games</h3>
                         {mood.game.map(game => {
-                            return <li key={game}><a className="button is-large" href={game.link} target="_blank">{game.game}</a></li>
+                            return <li key={game}><a className="button is-large is-rounded" href={game.link} target="_blank">{game.game}</a></li>
                         })}
                     </ul>
                 </article>
             </div>
         </div>
-      <div className="button is-large"><Link to="/">Back</Link></div>
+      <div id="back" className="button is-large"><Link to="/">Back</Link></div>
     </div>
   )
 }

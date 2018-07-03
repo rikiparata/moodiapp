@@ -1,28 +1,31 @@
-body {
-    
-}
-all {
 
-}
-
-* {
+/* * {
     border: 1px solid;
-}
+} */
 
 .tile.is-child.box {
     height: 350px;
     text-align: center;
 }
 
+.hero.is-medium.is-bold {
+    background-color: #735AFE;
+    color: white;
+}
 
 .maintitle {
     font-size: 60px;
     text-align: center;
 }
 
+.subtitle {
+    color: white;
+}
+
 #cool {
     margin-top: 25px;
     font-size: 100px;
+    color: #735AFE;
 
 }
 
@@ -41,4 +44,9 @@ h3 {
 .button {
     margin-bottom: 5px;
     text-align: center;
+}
+
+.button.is-large.is-rounded {
+    color: white;
+    background-color: #735AFE;
 }

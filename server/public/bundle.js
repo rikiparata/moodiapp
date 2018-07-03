@@ -19970,7 +19970,7 @@ var App = function App() {
       { className: 'all' },
       _react2.default.createElement(
         'section',
-        { className: 'hero is-medium is-dark is-bold' },
+        { className: 'hero is-medium is-bold' },
         _react2.default.createElement(
           'div',
           { className: 'hero-body' },
@@ -20002,7 +20002,7 @@ var App = function App() {
             _react2.default.createElement(
               'h1',
               { className: 'title' },
-              'Welcome To Moodi'
+              'what do you want to feel today?'
             )
           )
         )
@@ -23466,7 +23466,7 @@ var MoodContent = function MoodContent(props) {
                                 { key: music },
                                 _react2.default.createElement(
                                     'a',
-                                    { className: 'button is-large', href: music.link, target: '_blank' },
+                                    { className: 'button is-large is-rounded', href: music.link, target: '_blank' },
                                     music.song
                                 )
                             );
@@ -23494,7 +23494,7 @@ var MoodContent = function MoodContent(props) {
                                 { key: content },
                                 _react2.default.createElement(
                                     'a',
-                                    { className: 'button is-large is-dark is-outlined is-rounded', href: content.link, target: '_blank' },
+                                    { className: 'button is-large is-rounded', href: content.link, target: '_blank' },
                                     content.movie
                                 )
                             );
@@ -23522,7 +23522,7 @@ var MoodContent = function MoodContent(props) {
                                 { key: article },
                                 _react2.default.createElement(
                                     'a',
-                                    { className: 'button is-large', href: article.link, target: '_blank' },
+                                    { className: 'button is-large is-rounded', href: article.link, target: '_blank' },
                                     article.article
                                 )
                             );
@@ -23550,7 +23550,7 @@ var MoodContent = function MoodContent(props) {
                                 { key: game },
                                 _react2.default.createElement(
                                     'a',
-                                    { className: 'button is-large', href: game.link, target: '_blank' },
+                                    { className: 'button is-large is-rounded', href: game.link, target: '_blank' },
                                     game.game
                                 )
                             );
@@ -23561,7 +23561,7 @@ var MoodContent = function MoodContent(props) {
         ),
         _react2.default.createElement(
             'div',
-            { className: 'button is-large' },
+            { id: 'back', className: 'button is-large' },
             _react2.default.createElement(
                 _reactRouterDom.Link,
                 { to: '/' },

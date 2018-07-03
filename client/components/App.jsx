@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Router>
       <div className="all">
-        <section className="hero is-medium is-dark is-bold">
+        <section className="hero is-medium is-bold">
           <div className="hero-body">
             <div className="container has-text-centered">
               <div className="maintitle">moodi</div>
@@ -19,7 +19,7 @@ const App = () => {
         <section className="hero">
           <div className="hero-body">
             <div className="container has-text-centered">
-              <h1 className="title">Welcome To Moodi</h1>
+              <h1 className="title">what do you want to feel today?</h1>
             </div>
           </div>
         </section>
