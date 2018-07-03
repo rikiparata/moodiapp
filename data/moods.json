@@ -1,7 +1,7 @@
 {
   "list_of_moods": [
     {
-      "mood": "focus",
+      "mood": "FOCUS",
       "music": [
         {"song":"Spotify Deep Focus", "link":"https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWZeKCadgRdKQ"},
         {"song":"Apple Music Productivity", "link":"https://itunes.apple.com/us/playlist/back-to-work-music-for-study-focus-and-productivity/pl.81eb22e5ecfb4e058c923a0055c885e0"},
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "mood": "relax",
+      "mood": "RELAX",
       "music": [
         {"song":"Spotify Relax & Unwind", "link":"https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWU0ScTcjJBdj"},
         {"song":"Apple Music Relax", "link":"https://itunes.apple.com/us/artist/relaxing-music/352991713"},
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "mood": "hype",
+      "mood": "HYPE",
       "music": [
         {"song":"Spotify A1 Hip Hop", "link":"https://open.spotify.com/user/spotifyaustralia/playlist/02iYiVH3QUrRyTGQ2xB5Fv"},
         {"song":"Apple Music Party", "link":"https://itunes.apple.com/us/playlist/party-starters/pl.b477839538364c8db8f3950e13731ecc"},
