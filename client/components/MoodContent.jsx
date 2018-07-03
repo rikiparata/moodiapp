@@ -9,14 +9,14 @@ const MoodContent = (props) => {
 
   return (
     <div>
-      <h1>{mood.mood}</h1>
+      <h2>{mood.mood}</h2>
       <div class="tile is-ancestor">
             <div class="tile is-parent">
                 <article class="tile is-child box">
                     <ul>
-                        <h2>Music</h2>
+                        <h3>Music</h3>
                         {mood.music.map(music => {
-                            return <li key={music}><a href={music.link} target="_blank"><button>{music.song} </button></a></li>
+                            return <li key={music}><a className="button is-large" href={music.link} target="_blank">{music.song}</a></li>
                         })}
                     </ul>
                 </article>
@@ -24,9 +24,9 @@ const MoodContent = (props) => {
             <div class="tile is-parent">
                 <article class="tile is-child box">
                     <ul>
-                        <h2>Movies</h2>
+                        <h3>Movies</h3>
                         {mood.content.map(content => {
-                            return <li key={content}><a href={content.link} target="_blank"><button>{content.movie} </button></a></li>
+                            return <li key={content}><a className="button is-large is-dark is-outlined is-rounded" href={content.link} target="_blank">{content.movie}</a></li>
                         })}
                     </ul>
                 </article>
@@ -34,9 +34,9 @@ const MoodContent = (props) => {
             <div class="tile is-parent">
                 <article class="tile is-child box">
                     <ul>
-                        <h2>Articles</h2>
+                        <h3>Articles</h3>
                         {mood.article.map(article => {
-                            return <li key={article}><a href={article.link} target="_blank"><button>{article.article} </button></a></li>
+                            return <li key={article}><a className="button is-large" href={article.link} target="_blank">{article.article}</a></li>
                         })}
                     </ul>
                 </article>
@@ -44,15 +44,15 @@ const MoodContent = (props) => {
             <div class="tile is-parent">
                 <article class="tile is-child box">
                     <ul>
-                        <h2>Games</h2>
+                        <h3>Games</h3>
                         {mood.game.map(game => {
-                            return <li key={game}><a href={game.link} target="_blank"><button>{game.game} </button></a></li>
+                            return <li key={game}><a className="button is-large" href={game.link} target="_blank">{game.game}</a></li>
                         })}
                     </ul>
                 </article>
             </div>
         </div>
-      <Link to="/">Back</Link>
+      <div className="button is-large"><Link to="/">Back</Link></div>
     </div>
   )
 }

@@ -19967,7 +19967,7 @@ var App = function App() {
     null,
     _react2.default.createElement(
       'div',
-      null,
+      { className: 'all' },
       _react2.default.createElement(
         'section',
         { className: 'hero is-medium is-dark is-bold' },
@@ -19978,14 +19978,31 @@ var App = function App() {
             'div',
             { className: 'container has-text-centered' },
             _react2.default.createElement(
-              'h1',
-              { className: 'title' },
+              'div',
+              { className: 'maintitle' },
               'moodi'
             ),
             _react2.default.createElement(
-              'h2',
+              'div',
               { className: 'subtitle' },
               'for students'
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'section',
+        { className: 'hero' },
+        _react2.default.createElement(
+          'div',
+          { className: 'hero-body' },
+          _react2.default.createElement(
+            'div',
+            { className: 'container has-text-centered' },
+            _react2.default.createElement(
+              'h1',
+              { className: 'title' },
+              'Welcome To Moodi'
             )
           )
         )
@@ -23422,7 +23439,7 @@ var MoodContent = function MoodContent(props) {
         'div',
         null,
         _react2.default.createElement(
-            'h1',
+            'h2',
             null,
             mood.mood
         ),
@@ -23439,7 +23456,7 @@ var MoodContent = function MoodContent(props) {
                         'ul',
                         null,
                         _react2.default.createElement(
-                            'h2',
+                            'h3',
                             null,
                             'Music'
                         ),
@@ -23449,13 +23466,8 @@ var MoodContent = function MoodContent(props) {
                                 { key: music },
                                 _react2.default.createElement(
                                     'a',
-                                    { href: music.link, target: '_blank' },
-                                    _react2.default.createElement(
-                                        'button',
-                                        null,
-                                        music.song,
-                                        ' '
-                                    )
+                                    { className: 'button is-large', href: music.link, target: '_blank' },
+                                    music.song
                                 )
                             );
                         })
@@ -23472,7 +23484,7 @@ var MoodContent = function MoodContent(props) {
                         'ul',
                         null,
                         _react2.default.createElement(
-                            'h2',
+                            'h3',
                             null,
                             'Movies'
                         ),
@@ -23482,13 +23494,8 @@ var MoodContent = function MoodContent(props) {
                                 { key: content },
                                 _react2.default.createElement(
                                     'a',
-                                    { href: content.link, target: '_blank' },
-                                    _react2.default.createElement(
-                                        'button',
-                                        null,
-                                        content.movie,
-                                        ' '
-                                    )
+                                    { className: 'button is-large is-dark is-outlined is-rounded', href: content.link, target: '_blank' },
+                                    content.movie
                                 )
                             );
                         })
@@ -23505,7 +23512,7 @@ var MoodContent = function MoodContent(props) {
                         'ul',
                         null,
                         _react2.default.createElement(
-                            'h2',
+                            'h3',
                             null,
                             'Articles'
                         ),
@@ -23515,13 +23522,8 @@ var MoodContent = function MoodContent(props) {
                                 { key: article },
                                 _react2.default.createElement(
                                     'a',
-                                    { href: article.link, target: '_blank' },
-                                    _react2.default.createElement(
-                                        'button',
-                                        null,
-                                        article.article,
-                                        ' '
-                                    )
+                                    { className: 'button is-large', href: article.link, target: '_blank' },
+                                    article.article
                                 )
                             );
                         })
@@ -23538,7 +23540,7 @@ var MoodContent = function MoodContent(props) {
                         'ul',
                         null,
                         _react2.default.createElement(
-                            'h2',
+                            'h3',
                             null,
                             'Games'
                         ),
@@ -23548,13 +23550,8 @@ var MoodContent = function MoodContent(props) {
                                 { key: game },
                                 _react2.default.createElement(
                                     'a',
-                                    { href: game.link, target: '_blank' },
-                                    _react2.default.createElement(
-                                        'button',
-                                        null,
-                                        game.game,
-                                        ' '
-                                    )
+                                    { className: 'button is-large', href: game.link, target: '_blank' },
+                                    game.game
                                 )
                             );
                         })
@@ -23563,9 +23560,13 @@ var MoodContent = function MoodContent(props) {
             )
         ),
         _react2.default.createElement(
-            _reactRouterDom.Link,
-            { to: '/' },
-            'Back'
+            'div',
+            { className: 'button is-large' },
+            _react2.default.createElement(
+                _reactRouterDom.Link,
+                { to: '/' },
+                'Back'
+            )
         )
     );
 };

@@ -1,30 +1,44 @@
 body {
-    background-color: hsl(0, 0%, 96%);
+    
+}
+all {
+
 }
 
 * {
     border: 1px solid;
 }
 
-h1 {
-    font-size: 45px;
+.tile.is-child.box {
+    height: 350px;
     text-align: center;
 }
 
-/* return (
-    <div>
-      <h1>{mood.mood}</h1>
-      <div class="tile is-ancestor">
-            <div class="tile is-parent">
-                <article class="tile is-child box">
-                    <ul>
-                    {moods.map(moodData => {
-                        return <div style={{padding: "50px"}} className="tile is-child box " key={moodData.mood}><Link to={`/${moodData.mood}/content`}>{moodData.mood}</Link></div>
-                      })}
-                    </ul>
-                </article>
-            </div>
-        </div>
-    </div>
-  )
-} */
+
+.maintitle {
+    font-size: 60px;
+    text-align: center;
+}
+
+#cool {
+    margin-top: 25px;
+    font-size: 100px;
+
+}
+
+h2 { 
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin-bottom: 5px;
+    text-align: center;
+}

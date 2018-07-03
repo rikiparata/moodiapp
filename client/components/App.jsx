@@ -7,12 +7,19 @@ import MoodContent from './MoodContent'
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="all">
         <section className="hero is-medium is-dark is-bold">
           <div className="hero-body">
             <div className="container has-text-centered">
-              <h1 className="title">moodi</h1>
-              <h2 className="subtitle">for students</h2>
+              <div className="maintitle">moodi</div>
+              <div className="subtitle">for students</div>
+            </div>
+          </div>
+        </section>
+        <section className="hero">
+          <div className="hero-body">
+            <div className="container has-text-centered">
+              <h1 className="title">Welcome To Moodi</h1>
             </div>
           </div>
         </section>
