@@ -19980,7 +19980,7 @@ var App = function App() {
             _react2.default.createElement(
               'div',
               { className: 'maintitle' },
-              'moodi'
+              'moodiapp'
             ),
             _react2.default.createElement(
               'div',
@@ -20002,7 +20002,7 @@ var App = function App() {
             _react2.default.createElement(
               'h1',
               { className: 'title' },
-              'what do you want to feel today?'
+              'SET THE MOOD'
             )
           )
         )
@@ -23397,9 +23397,13 @@ var Home = function Home(props) {
         'div',
         { className: 'tile is-child box', key: moodData.mood },
         _react2.default.createElement(
-          _reactRouterDom.Link,
-          { to: '/' + moodData.mood + '/content' },
-          moodData.mood
+          'div',
+          { className: 'yes' },
+          _react2.default.createElement(
+            _reactRouterDom.Link,
+            { to: '/' + moodData.mood + '/content' },
+            moodData.mood
+          )
         )
       );
     })
@@ -23445,13 +23449,13 @@ var MoodContent = function MoodContent(props) {
         ),
         _react2.default.createElement(
             'div',
-            { 'class': 'tile is-ancestor' },
+            { className: 'tile is-ancestor' },
             _react2.default.createElement(
                 'div',
-                { 'class': 'tile is-parent' },
+                { className: 'tile is-parent' },
                 _react2.default.createElement(
                     'article',
-                    { 'class': 'tile is-child box' },
+                    { className: 'tile is-child box' },
                     _react2.default.createElement(
                         'ul',
                         null,
@@ -23476,10 +23480,10 @@ var MoodContent = function MoodContent(props) {
             ),
             _react2.default.createElement(
                 'div',
-                { 'class': 'tile is-parent' },
+                { className: 'tile is-parent' },
                 _react2.default.createElement(
                     'article',
-                    { 'class': 'tile is-child box' },
+                    { className: 'tile is-child box' },
                     _react2.default.createElement(
                         'ul',
                         null,
@@ -23504,10 +23508,10 @@ var MoodContent = function MoodContent(props) {
             ),
             _react2.default.createElement(
                 'div',
-                { 'class': 'tile is-parent' },
+                { className: 'tile is-parent' },
                 _react2.default.createElement(
                     'article',
-                    { 'class': 'tile is-child box' },
+                    { className: 'tile is-child box' },
                     _react2.default.createElement(
                         'ul',
                         null,
@@ -23532,10 +23536,10 @@ var MoodContent = function MoodContent(props) {
             ),
             _react2.default.createElement(
                 'div',
-                { 'class': 'tile is-parent' },
+                { className: 'tile is-parent' },
                 _react2.default.createElement(
                     'article',
-                    { 'class': 'tile is-child box' },
+                    { className: 'tile is-child box' },
                     _react2.default.createElement(
                         'ul',
                         null,

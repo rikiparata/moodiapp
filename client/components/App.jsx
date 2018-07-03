@@ -11,7 +11,7 @@ const App = () => {
         <section className="hero is-medium is-bold">
           <div className="hero-body">
             <div className="container has-text-centered">
-              <div className="maintitle">moodi</div>
+              <div className="maintitle">moodiapp</div>
               <div className="subtitle">for students</div>
             </div>
           </div>
@@ -19,7 +19,7 @@ const App = () => {
         <section className="hero">
           <div className="hero-body">
             <div className="container has-text-centered">
-              <h1 className="title">what do you want to feel today?</h1>
+              <h1 className="title">SET THE MOOD</h1>
             </div>
           </div>
         </section>

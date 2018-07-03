@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Fredoka One', cursive;
+}
 /* * {
     border: 1px solid;
 } */
@@ -14,25 +16,35 @@
 }
 
 .maintitle {
-    font-size: 60px;
+    font-size: 150px;
     text-align: center;
+    font-family: 'Monofett', cursive;
 }
 
 .subtitle {
     color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
 }
+
+.title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    color: #735AFE;
+}
+
 
 #cool {
     margin-top: 25px;
-    font-size: 100px;
+    font-size: 90px;
     color: #735AFE;
+    font-family: 'Fredoka One', cursive;
 
 }
 
 h2 { 
     font-size: 50px;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 h3 {
@@ -41,12 +53,12 @@ h3 {
     margin-bottom: 20px;
 }
 
-.button {
-    margin-bottom: 5px;
-    text-align: center;
-}
 
 .button.is-large.is-rounded {
     color: white;
     background-color: #735AFE;
 }
+
+.yes {
+    text-align: center;
+} 

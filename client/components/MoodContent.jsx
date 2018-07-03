@@ -10,9 +10,9 @@ const MoodContent = (props) => {
   return (
     <div>
       <h2>{mood.mood}</h2>
-      <div class="tile is-ancestor">
-            <div class="tile is-parent">
-                <article class="tile is-child box">
+      <div className="tile is-ancestor">
+            <div className="tile is-parent">
+                <article className="tile is-child box">
                     <ul>
                         <h3>Music</h3>
                         {mood.music.map(music => {
@@ -21,8 +21,8 @@ const MoodContent = (props) => {
                     </ul>
                 </article>
             </div>
-            <div class="tile is-parent">
-                <article class="tile is-child box">
+            <div className="tile is-parent">
+                <article className="tile is-child box">
                     <ul>
                         <h3>Movies</h3>
                         {mood.content.map(content => {
@@ -31,8 +31,8 @@ const MoodContent = (props) => {
                     </ul>
                 </article>
             </div>
-            <div class="tile is-parent">
-                <article class="tile is-child box">
+            <div className="tile is-parent">
+                <article className="tile is-child box">
                     <ul>
                         <h3>Articles</h3>
                         {mood.article.map(article => {
@@ -41,8 +41,8 @@ const MoodContent = (props) => {
                     </ul>
                 </article>
             </div>
-            <div class="tile is-parent">
-                <article class="tile is-child box">
+            <div className="tile is-parent">
+                <article className="tile is-child box">
                     <ul>
                         <h3>Games</h3>
                         {mood.game.map(game => {
