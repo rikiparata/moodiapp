@@ -7,7 +7,7 @@ const Home = (props) => {
   return (
     <div id="cool" className="tile is-vertical-center">
       {moods.map(moodData => {
-        return <div className="tile is-child box" key={moodData.mood}><div className="yes"><Link className="home button is-large is-rounded" to={`/${moodData.mood}/content`}>{moodData.mood}</Link></div></div>
+        return <div className="tile is-child box" key={moodData.mood}><Link className="moods" to={`/${moodData.mood}/content`}>{moodData.mood}</Link></div>
       })} 
     </div>
   )

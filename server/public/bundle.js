@@ -23397,13 +23397,9 @@ var Home = function Home(props) {
         'div',
         { className: 'tile is-child box', key: moodData.mood },
         _react2.default.createElement(
-          'div',
-          { className: 'yes' },
-          _react2.default.createElement(
-            _reactRouterDom.Link,
-            { className: 'home button is-large is-rounded', to: '/' + moodData.mood + '/content' },
-            moodData.mood
-          )
+          _reactRouterDom.Link,
+          { className: 'moods', to: '/' + moodData.mood + '/content' },
+          moodData.mood
         )
       );
     })
@@ -23568,7 +23564,7 @@ var MoodContent = function MoodContent(props) {
             { className: 'fullWidth' },
             _react2.default.createElement(
                 'div',
-                { id: 'back', className: 'button is-large is-rounded' },
+                { className: 'button is-rounded is-medium' },
                 _react2.default.createElement(
                     _reactRouterDom.Link,
                     { to: '/' },

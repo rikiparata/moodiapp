@@ -1,6 +1,4 @@
-body {
-    font-family: 'Fredoka One', cursive;
-}
+
 /* * {
     border: 1px solid;
 } */
@@ -42,24 +40,27 @@ body {
     font-family: 'Fredoka One', cursive;
 }
 
-a.home {
-    text-decoration: none;
-    color: black;
-    background-color: aqua;
-}
-
 a {
+    color: #735AFE;
+   
+}
+a:hover {
     color: white;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #735AFE;
+    transition-delay: 0.66ms;
 }
 
 .fullWidth {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
+    color: white;
 }
 
 #back {
     margin: 0 auto;
+    color: white;
 }
 
 h2 { 
@@ -68,12 +69,14 @@ h2 {
     background-color: #735AFE;
     margin: 0px;
     color: white;
+    font-family: 'Fredoka One', cursive;
 }
 
 h3 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
 }
 
 
@@ -90,4 +93,8 @@ h3 {
     display: flex;
     align-items: center;
 
+}
+
+moods {
+    color: aquamarine;
 }
