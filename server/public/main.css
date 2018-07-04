@@ -2,6 +2,9 @@
 /* * {
     border: 1px solid;
 } */
+.tile.is-parent {
+    margin-top: 25px;
+}
 
 .tile.is-child.box {
     height: 200px;
@@ -51,9 +54,8 @@ a.moods:hover {
     -webkit-text-stroke-color: #735AFE;
 }
 
-a.back {
-    color: aqua;
-}
+
+
 .fullWidth {
     width: 100%;
     text-align: center;
@@ -72,7 +74,7 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
     font-family: 'Fredoka One', cursive;
@@ -82,6 +84,13 @@ h3 {
 .button.is-large.is-rounded {
     color: white;
     background-color: #735AFE;
+    font-size: 25px;
+}
+
+a.button.is-large.is-rounded:hover {
+    color: #735AFE;
+    background-color: white;
+    outline-color: #735AFE solid;
 }
 
 .yes {
@@ -92,8 +101,4 @@ h3 {
     display: flex;
     align-items: center;
 
-}
-
-moods {
-    color: aquamarine;
 }
