@@ -40,17 +40,20 @@
     font-family: 'Fredoka One', cursive;
 }
 
-a {
+a.moods {
     color: #735AFE;
-   
+   transition: .2s ease-in-out all;
 }
-a:hover {
+
+a.moods:hover {
     color: white;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: #735AFE;
-    transition-delay: 0.66ms;
 }
 
+a.back {
+    color: aqua;
+}
 .fullWidth {
     width: 100%;
     text-align: center;
@@ -58,10 +61,6 @@ a:hover {
     color: white;
 }
 
-#back {
-    margin: 0 auto;
-    color: white;
-}
 
 h2 { 
     font-size: 50px;

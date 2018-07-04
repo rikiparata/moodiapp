@@ -53,7 +53,7 @@ const MoodContent = (props) => {
                 </div>
             </div>
             <div className="fullWidth">
-                <div className="button is-rounded is-medium"><Link to="/">BACK</Link></div>
+                <div className="button is-rounded is-medium"><Link className="back" to="/">BACK</Link></div>
             </div>
         </div>
     )
